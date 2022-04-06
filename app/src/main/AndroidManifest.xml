@@ -10,11 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TP04.SplashScreen">
         <activity
-            android:name=".TweetDetailActivity"
+            android:name=".screens.TweetDetailActivity"
             android:exported="true"
-            android:theme="@style/Theme.TP04"/>
+            android:theme="@style/Theme.TP04">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.MainActivity" />
+        </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

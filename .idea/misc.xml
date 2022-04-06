@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.111" />
+        <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/drawable/ic_round_info_24.xml" value="0.1855" />
         <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/drawable/ic_twitter_48.xml" value="0.1" />
         <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/drawable/ic_twitter_480.xml" value="0.1" />
-        <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/layout/activity_main.xml" value="0.23427041499330656" />
+        <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/layout/activity_tweet_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/layout/custom_tweet_dialog.xml" value="0.16" />
-        <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/layout/tweet_item_layout.xml" value="0.4" />
+        <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/layout/tweet_item_layout.xml" value="0.264" />
         <entry key="..\:/Users/Akram_Bensalem/AndroidStudioProjects/TP042/app/src/main/res/menu/main_menu.xml" value="0.152" />
       </map>
     </option>

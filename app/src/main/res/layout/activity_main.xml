@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".screens.MainActivity"
     android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_no_tweets"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="24dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="false"
+        android:alpha="0.33"
+        android:contentDescription="@string/no_tweet"
+        android:cropToPadding="false"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_empty_recyclerview"
+        android:visibility="visible" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -15,10 +29,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="8dp"
-
         tools:itemCount="8"
         tools:listitem="@layout/tweet_item_layout"
-        />
+        android:visibility="gone" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

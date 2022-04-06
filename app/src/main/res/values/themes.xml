@@ -7,5 +7,12 @@
         <item name="colorSecondaryVariant">@color/dark_gray</item>
         <item name="colorOnSecondary">@color/white</item>
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowContentTransitions">true</item>
     </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
 </resources>

@@ -25,6 +25,7 @@
         android:layout_height="80dp"
         android:layout_margin="8dp"
         tools:src="@drawable/ic_launcher_foreground"
+        android:transitionName="transition_avatar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -34,16 +35,16 @@
         android:id="@+id/tv_tweet_user_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="8dp"
         android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp"
         android:fontFamily="sans-serif-black"
+        android:textColor="@color/dark_gray"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:transitionName="transition_user_name"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
         app:layout_constraintStart_toEndOf="@+id/iv_tweet_profile"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/my_name"
-        android:textColor="@color/dark_gray"
-        />
+        tools:text="@string/my_name" />
 
     <TextView
         android:id="@+id/tv_tweet_text"
@@ -52,11 +53,27 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
+        android:transitionName="transition_text"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
         app:layout_constraintStart_toEndOf="@+id/iv_tweet_profile"
         app:layout_constraintTop_toBottomOf="@+id/tv_tweet_user_name"
         tools:text="@string/my_tweet" />
+
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_margin="8dp"
+        android:layout_marginStart="1dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_round_info_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/more_information"
+        app:tint="@color/blue"
+        android:backgroundTint="@android:color/transparent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,4 +5,10 @@
     <string name="my_name">Bensalem Akram</string>
     <string name="my_tweet">if you\'re in trouble remember that God is mericul</string>
     <string name="tweet_profile_image">tweet profile image</string>
+    <string name="play_sound">play sound</string>
+    <string name="my_tweet_date">14 mai 2022</string>
+    <string name="more_information">More information</string>
+    <string name="no_tweet">No tweet</string>
+    <string name="delete_alert_dialog_message">Vous confirmez la suppression?</string>
+    <string name="delete_dialog_title">Suppression</string>
 </resources>
