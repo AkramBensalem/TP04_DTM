@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         },
         onLongClick = {
-            mViewModel.deleteTweet(it)
+            mViewModel.deleteTweet(it) //
             adapter.dataList = mViewModel.tweetsList.value
         }
     ) } // initialize the adapter only when it is needed and only once to better performance
