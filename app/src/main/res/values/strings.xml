@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TwitterTp04</string>
+    <string name="tweet">tweet</string>
+    <string name="dialog_edittext_hint">Quoi de neuf?</string>
+    <string name="my_name">Bensalem Akram</string>
+    <string name="my_tweet">if you\'re in trouble remember that God is mericul</string>
+    <string name="tweet_profile_image">tweet profile image</string>
+</resources>

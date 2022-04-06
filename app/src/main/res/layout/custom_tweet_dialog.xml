@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/tweet_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:gravity="top|start"
+        android:hint="@string/dialog_edittext_hint"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:minLines="2"
+        android:scrollbars="vertical"
+        android:singleLine="false" />
+
+
+</LinearLayout>
